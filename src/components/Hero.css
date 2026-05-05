@@ -388,6 +388,10 @@
   .deco-f6 {
     display: none;
   }
+
+  .scroll-hint {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {

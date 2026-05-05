@@ -87,6 +87,7 @@ const ProductCard = ({ product, i, hovered, setHovered }) => (
     style={{ animationDelay: `${i * 0.07}s` }}
     onMouseEnter={() => setHovered(product.id)}
     onMouseLeave={() => setHovered(null)}
+    onClick={() => setHovered(hovered === product.id ? null : product.id)}
   >
     {product.bestSeller && <div className="bs-ribbon">⭐ Best Seller</div>}
     {product.isNew && !product.bestSeller && <div className="new-chip">✨ NEW</div>}
