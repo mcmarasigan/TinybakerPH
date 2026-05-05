@@ -124,12 +124,7 @@ const Pricing = () => {
     ? products.filter(p => p.bestSeller)
     : products.filter(p => p.category === active)
 
-  useEffect(() => {
-    const bar = filterBarRef.current
-    if (!bar) return
-    const activeEl = bar.querySelector('.filter-pill.active')
-    if (activeEl) activeEl.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' })
-  }, [active])
+
 
   return (
     <section id="pricing" className="pricing">
