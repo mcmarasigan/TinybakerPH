@@ -97,6 +97,49 @@
   font-size: 1.2rem;
 }
 
+.deco-f7 {
+  top: 25%;
+  left: 45%;
+  animation: float 6.5s ease-in-out infinite 2s;
+  font-size: 1.4rem;
+}
+
+.deco-f8 {
+  bottom: 15%;
+  left: 30%;
+  animation: floatReverse 7.5s ease-in-out infinite 0.7s;
+  font-size: 1.8rem;
+}
+
+.deco-f9 {
+  top: 50%;
+  right: 35%;
+  animation: float 5s ease-in-out infinite 1.2s;
+  font-size: 1.6rem;
+}
+
+.deco-f10 {
+  bottom: 35%;
+  left: 20%;
+  animation: floatReverse 6s ease-in-out infinite 0.9s;
+  font-size: 1.5rem;
+}
+
+.deco-f11 {
+  top: 10%;
+  left: 28%;
+  animation: float 8s ease-in-out infinite 2.5s;
+  font-size: 1.3rem;
+}
+
+.deco-f12 {
+  bottom: 10%;
+  right: 25%;
+  animation: floatReverse 5.5s ease-in-out infinite 1.8s;
+  color: var(--pink-dark);
+  font-size: 1.7rem;
+}
+
 /* Inner layout */
 .hero-inner {
   display: grid;

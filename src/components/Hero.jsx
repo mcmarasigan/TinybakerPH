@@ -15,6 +15,12 @@ const Hero = () => {
       <span className="deco-float deco-f4">⭐</span>
       <span className="deco-float deco-f5">✨</span>
       <span className="deco-float deco-f6">♡</span>
+      <span className="deco-float deco-f7">🍓</span>
+      <span className="deco-float deco-f8">🎀</span>
+      <span className="deco-float deco-f9">✨</span>
+      <span className="deco-float deco-f10">☕</span>
+      <span className="deco-float deco-f11">🌸</span>
+      <span className="deco-float deco-f12">♡</span>
 
       <div className="hero-inner section-wrapper">
         {/* Left: Text */}
