@@ -82,32 +82,36 @@
 }
 
 .heading-tiny {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 300;
-  font-size: 0.55em;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+  font-size: 0.5em;
   color: var(--text-medium);
   display: block;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
   text-transform: lowercase;
-  margin-bottom: -8px;
+  margin-bottom: -4px;
 }
 
 .heading-baker {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   color: var(--text-dark);
   display: block;
   background: linear-gradient(135deg, var(--text-dark) 30%, var(--brown-dark) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  line-height: 1;
 }
 
 .heading-ph {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   color: var(--pink-dark);
-  font-size: 0.65em;
+  font-size: 0.55em;
   display: block;
-  margin-top: -16px;
+  margin-top: 4px;
+  letter-spacing: 6px;
   background: linear-gradient(135deg, var(--pink-dark), var(--brown));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

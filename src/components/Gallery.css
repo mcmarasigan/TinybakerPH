@@ -52,9 +52,11 @@
 }
 
 .gallery-section-title {
-  font-family: 'Pacifico', cursive;
-  font-size: 1.3rem;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 1.6rem;
   white-space: nowrap;
+  letter-spacing: 1px;
 }
 
 .gallery-section-line {
