@@ -83,7 +83,7 @@ const Contact = () => {
               <div className="info-icon">📍</div>
               <div>
                 <h3>Based in</h3>
-                <p className="info-text">Metro Manila, Philippines 🇵🇭<br />Delivering nationwide via Lalamove / JRS</p>
+                <p className="info-text">Project 8, Quezon City, Metro Manila, Philippines 🇵🇭<br />Delivering nationwide via Lalamove / JRS</p>
               </div>
             </div>
 
