@@ -1,0 +1,10 @@
+/* Reset default Vite / React styles */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  overflow-x: hidden;
+}
