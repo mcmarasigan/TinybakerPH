@@ -28,56 +28,6 @@
   display: block;
 }
 
-/* Background Decor */
-.about-bg-elements {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.about-blob {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px);
-  z-index: 0;
-}
-
-.about-blob-1 {
-  width: 400px;
-  height: 400px;
-  background: rgba(255, 182, 217, 0.4);
-  top: -100px;
-  left: -150px;
-  animation: float 10s ease-in-out infinite;
-}
-
-.about-blob-2 {
-  width: 500px;
-  height: 500px;
-  background: rgba(212, 165, 116, 0.25);
-  bottom: -200px;
-  right: -250px;
-  animation: floatReverse 12s ease-in-out infinite;
-}
-
-.about-deco {
-  position: absolute;
-  font-size: 1.5rem;
-  opacity: 0.6;
-}
-
-.about-f1 { top: 15%; left: 10%; animation: float 6s infinite 0.2s; }
-.about-f2 { top: 40%; right: 5%; animation: floatReverse 7s infinite 1s; font-size: 1.8rem; }
-.about-f3 { bottom: 20%; left: 5%; animation: float 5.5s infinite 0.5s; color: var(--pink-dark); }
-.about-f4 { top: 25%; left: 50%; animation: floatReverse 8s infinite 2s; font-size: 2rem; opacity: 0.4; }
-.about-f5 { bottom: 15%; right: 15%; animation: float 6.5s infinite 0.8s; font-size: 1.6rem; }
-.about-f6 { top: 70%; left: 15%; animation: floatReverse 5s infinite 1.5s; }
-
 /* Header */
 .about-header {
   text-align: center;
