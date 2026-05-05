@@ -10,6 +10,19 @@ const About = () => {
         </svg>
       </div>
 
+      {/* Background Decor */}
+      <div className="about-bg-elements">
+        <div className="about-blob about-blob-1"></div>
+        <div className="about-blob about-blob-2"></div>
+        
+        <span className="about-deco about-f1">✨</span>
+        <span className="about-deco about-f2">🌸</span>
+        <span className="about-deco about-f3">♡</span>
+        <span className="about-deco about-f4">🍪</span>
+        <span className="about-deco about-f5">🎀</span>
+        <span className="about-deco about-f6">✨</span>
+      </div>
+
       <div className="section-wrapper">
         {/* Header */}
         <div className="about-header reveal">
