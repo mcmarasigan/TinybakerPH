@@ -6,7 +6,7 @@
 
 ## ✨ Live Preview
 
-> _Coming soon — deploy link here_
+🌐 **[tinybakerph.vercel.app](https://tinybakerph.vercel.app)**
 
 ---
 
