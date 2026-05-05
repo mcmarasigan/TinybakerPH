@@ -306,39 +306,6 @@
   animation: floatReverse 6.5s ease-in-out infinite 1.2s;
 }
 
-/* Tiny Chefs */
-.mascot-chef {
-  position: absolute;
-  z-index: 4;
-}
-
-.mascot-chef-boy {
-  top: -20px;
-  left: 20px;
-}
-
-.mascot-chef-girl {
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.mascot-img-chef {
-  width: 140px;
-  height: 140px;
-  object-fit: contain;
-  display: block;
-  filter: drop-shadow(0 12px 28px rgba(212, 165, 116, 0.45));
-}
-
-.mascot-chef-boy .mascot-img-chef {
-  animation: float 6s ease-in-out infinite 0.6s;
-}
-
-.mascot-chef-girl .mascot-img-chef {
-  animation: floatReverse 5.8s ease-in-out infinite 1.4s;
-}
-
 /* Scroll hint */
 .scroll-hint {
   position: absolute;

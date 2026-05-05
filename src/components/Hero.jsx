@@ -75,23 +75,6 @@ const Hero = () => {
             />
           </div>
 
-          {/* Top Left — Chef Boy */}
-          <div className="mascot-chef mascot-chef-boy">
-            <img
-              src="/tinychef-boy.png"
-              alt="Tiny Chef Boy"
-              className="mascot-img mascot-img-chef"
-            />
-          </div>
-
-          {/* Bottom Center — Chef Girl */}
-          <div className="mascot-chef mascot-chef-girl">
-            <img
-              src="/tinychef-girl.png"
-              alt="Tiny Chef Girl"
-              className="mascot-img mascot-img-chef"
-            />
-          </div>
 
           {/* Top right — Cookie */}
           <div className="mascot-secondary mascot-top-right">
