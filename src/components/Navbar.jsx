@@ -12,10 +12,10 @@ const Navbar = () => {
   }, [])
 
   const navLinks = [
-    { href: '#home', label: 'Home' },
-    { href: '#about', label: 'About' },
-    { href: '#gallery', label: 'Gallery' },
-    { href: '#why-us', label: 'Why Us' },
+    { href: '#home',    label: 'Home' },
+    { href: '#about',   label: 'About' },
+    { href: '#pricing', label: 'Pricing' },
+    { href: '#why-us',  label: 'Why Us' },
     { href: '#contact', label: 'Contact' },
   ]
 

@@ -96,23 +96,51 @@ const Contact = () => {
               </div>
             </div>*/}
 
-            {/* Socials */}
-            <div className="social-section">
-              <h3 className="social-heading">Find us online ♡</h3>
-              <div className="social-links">
-                <a href="https://www.facebook.com/Tinybakerph" target="_blank" rel="noreferrer" className="social-btn fb" aria-label="Facebook">
-                  <FacebookIcon />
-                  <span>Facebook</span>
-                </a>
-                <a href="https://www.instagram.com/tinybaker_ph" target="_blank" rel="noreferrer" className="social-btn ig" aria-label="Instagram">
-                  <InstagramIcon />
-                  <span>Instagram</span>
-                </a>
-                <a href="https://www.tiktok.com/@tinybaker_ph" target="_blank" rel="noreferrer" className="social-btn tt" aria-label="TikTok">
-                  <TiktokIcon />
-                  <span>TikTok</span>
-                </a>
-              </div>
+            {/* Quick Action Buttons — mobile-first ordering */}
+            <div className="quick-actions">
+              <h3 className="quick-actions-heading">Order Now — Quick Links ♡</h3>
+              <a
+                href="https://www.facebook.com/Tinybakerph"
+                target="_blank"
+                rel="noreferrer"
+                className="quick-btn quick-fb"
+                aria-label="Message on Facebook"
+              >
+                <FacebookIcon />
+                <div className="quick-btn-text">
+                  <span className="quick-btn-title">Message on Facebook</span>
+                  <span className="quick-btn-sub">Tap to chat with us</span>
+                </div>
+                <span className="quick-arrow">›</span>
+              </a>
+              <a
+                href="https://www.instagram.com/tinybaker_ph"
+                target="_blank"
+                rel="noreferrer"
+                className="quick-btn quick-ig"
+                aria-label="DM on Instagram"
+              >
+                <InstagramIcon />
+                <div className="quick-btn-text">
+                  <span className="quick-btn-title">DM on Instagram</span>
+                  <span className="quick-btn-sub">@tinybaker_ph</span>
+                </div>
+                <span className="quick-arrow">›</span>
+              </a>
+              <a
+                href="https://www.tiktok.com/@tinybaker_ph"
+                target="_blank"
+                rel="noreferrer"
+                className="quick-btn quick-tt"
+                aria-label="Follow on TikTok"
+              >
+                <TiktokIcon />
+                <div className="quick-btn-text">
+                  <span className="quick-btn-title">TikTok</span>
+                  <span className="quick-btn-sub">@tinybaker_ph</span>
+                </div>
+                <span className="quick-arrow">›</span>
+              </a>
             </div>
           </div>
 

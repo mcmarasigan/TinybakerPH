@@ -49,10 +49,12 @@
 }
 
 .logo-text {
-  font-family: 'Pacifico', cursive;
-  font-size: 1.4rem;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  font-size: 1.7rem;
   color: var(--text-dark);
   line-height: 1;
+  letter-spacing: 1px;
 }
 
 .logo-ph {

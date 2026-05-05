@@ -79,7 +79,7 @@ const WhyChooseUs = () => {
           ))}
         </div>
 
-        {/* Testimonial strip */}
+        {/* Testimonial strip
         <div className="testimonials reveal">
           <h3 className="testi-heading">What our Cookie Crew says ♡</h3>
           <div className="testi-grid">
@@ -95,7 +95,8 @@ const WhyChooseUs = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div>*/}
+
       </div>
     </section>
   )
