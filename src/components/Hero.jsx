@@ -16,7 +16,6 @@ const Hero = () => {
       <span className="deco-float deco-f5">✨</span>
       <span className="deco-float deco-f6">♡</span>
       <span className="deco-float deco-f7">🍓</span>
-      <span className="deco-float deco-f8">🎀</span>
       <span className="deco-float deco-f9">✨</span>
       <span className="deco-float deco-f10">☕</span>
       <span className="deco-float deco-f11">🌸</span>
@@ -37,7 +36,7 @@ const Hero = () => {
 
           <div className="hero-actions">
             <a href="#gallery" className="btn-primary" onClick={(e) => { e.preventDefault(); document.querySelector('#gallery').scrollIntoView({ behavior: 'smooth' }) }}>
-              🛒 Shop Now
+              🛒 Order Now
             </a>
             <a href="#about" className="btn-secondary" onClick={(e) => { e.preventDefault(); document.querySelector('#about').scrollIntoView({ behavior: 'smooth' }) }}>
               Our Story ✨
@@ -46,18 +45,18 @@ const Hero = () => {
 
           <div className="hero-stats">
             <div className="stat">
-              <span className="stat-num">500+</span>
-              <span className="stat-label">Happy Customers</span>
+              <span className="stat-num">Small Batch</span>
+              <span className="stat-label">Handcrafted Daily</span>
             </div>
             <div className="stat-divider" />
             <div className="stat">
-              <span className="stat-num">30+</span>
-              <span className="stat-label">Yummy Items</span>
+              <span className="stat-num">Fresh</span>
+              <span className="stat-label">Baked to Order</span>
             </div>
             <div className="stat-divider" />
             <div className="stat">
-              <span className="stat-num">100%</span>
-              <span className="stat-label">Baked Fresh</span>
+              <span className="stat-num">Premium</span>
+              <span className="stat-label">Quality Ingredients</span>
             </div>
           </div>
         </div>

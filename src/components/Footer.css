@@ -98,7 +98,8 @@
 }
 
 .footer-col-title {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   font-size: 1rem;
   color: var(--pink);
   padding-bottom: 8px;

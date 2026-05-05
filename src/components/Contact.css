@@ -112,7 +112,8 @@
 }
 
 .social-heading {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   font-size: 1.1rem;
   color: var(--text-dark);
   margin-bottom: 16px;
@@ -158,7 +159,8 @@
 }
 
 .form-title {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   font-size: 1.4rem;
   color: var(--text-dark);
   margin-bottom: 28px;
@@ -227,7 +229,8 @@
 }
 
 .success-message h4 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   font-size: 1.6rem;
   color: var(--text-dark);
   margin-bottom: 10px;

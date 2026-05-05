@@ -136,7 +136,8 @@
 }
 
 .mission-text h3 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   font-size: 1.2rem;
   color: var(--pink-dark);
   margin-bottom: 6px;
