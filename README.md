@@ -1,153 +1,74 @@
-# 🍪 TinyBaker PH — Landing Page
+# 🎀 TinyBaker PH 🍪
 
-> A kawaii-themed bakery landing page for **TinyBaker PH**, a home-based gourmet bakery based in Project 8, Quezon City, Philippines. Built with React + Vite.
+Welcome to the official front-end repository for **TinyBaker PH** — a handcrafted, pre-order only bakery based in Project 8, Quezon City, Philippines! This project is a fully responsive, modern React landing page designed to showcase the bakery's delightful menu with a highly customized, "kawaii" brand aesthetic.
 
----
-
-## ✨ Live Preview
-
-🌐 **[tinybakerph.vercel.app](https://tinybakerph.vercel.app)**
+![TinyBaker PH Preview](https://img.shields.io/badge/Status-Live_on_Vercel-pink?style=for-the-badge&logo=vercel)
+![React](https://img.shields.io/badge/React-18.0-blue?style=for-the-badge&logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.0-purple?style=for-the-badge&logo=vite)
 
 ---
 
-## 🧁 About TinyBaker PH
+## ✨ Features & Design Highlights
 
-TinyBaker PH is a home-based bakery offering handcrafted gourmet cookies, triple chocolate brownies, croissants, and crookies — baked fresh and strictly pre-order only.
-
-📍 **Location:** Project 8, Quezon City, Philippines  
-📦 **Order type:** Pre-order only  
-📱 **Social:**
-- [Facebook](https://www.facebook.com/Tinybakerph)
-- [Instagram](https://www.instagram.com/tinybaker_ph)
-- [TikTok](https://www.tiktok.com/@tinybaker_ph)
-
----
-
-## 🛍️ Menu
-
-### 🍪 Gourmet Cookies
-| Flavor | 40g (mini) | 100g (large) |
-|--------|-----------|-------------|
-| Dark Chocolate with Walnuts | ₱300/6pcs · ₱580/12pcs | ₱130/pc · ₱1,020/8pcs |
-| Red Velvet with Creamcheese | ₱300/6pcs · ₱580/12pcs | ₱130/pc · ₱1,020/8pcs |
-| Matcha with White Chocolate | ₱300/6pcs · ₱580/12pcs | ₱130/pc · ₱1,020/8pcs |
-| Midnight Oreo ✨ NEW | ₱300/6pcs · ₱580/12pcs | ₱130/pc · ₱1,020/8pcs |
-
-### 🟫 Triple Chocolate Brownies (Mini Bites)
-| Size | Price |
-|------|-------|
-| 6's | ₱120 |
-| 12's | ₱220 |
-| 24's | ₱420 |
-
-### 🥐 Croissants
-| Item | Price |
-|------|-------|
-| Butter Croissant | ₱100 |
-| Almond Croissant | ₱160 |
-
-### 🥐🍪 Crookies (Croissant × Cookie)
-| Item | Price |
-|------|-------|
-| Crookie | ₱160 |
+*   **Custom Kawaii Mascots:** High-quality, logo-matching line-art illustrations of the menu items (Crookie, Matcha Crookie, Brownie, Cookie) with floating CSS animations.
+*   **Artisan Typography:** Global integration of the hand-drawn **Amatic SC** font to perfectly match the bakery's authentic branding.
+*   **Interactive Pricing Grid:** A complete "Sweet Menu" replacing a standard gallery, featuring:
+    *   Horizontal scrollable category filters (`Best Sellers`, `All Items`, `Cookies`, `Brownies`, `Croissants`, `Crookies`).
+    *   Dynamic ribbons (`⭐ Best Seller`, `✨ NEW`).
+    *   Hover-state overlays that reveal detailed product descriptions and price breakdowns.
+*   **Mobile-First Quick Actions:** Specifically designed for mobile ergonomics with massive, thumb-friendly tap targets (`>44px`) routing users directly to Facebook, Instagram, or TikTok DMs.
+*   **Fluid Animations:** Seamless scroll-reveal effects (via Intersection Observer), CSS floating objects, hover scaling, and SVG section dividers.
 
 ---
 
-## 🎨 Design
+## 🛠 Tech Stack
 
-| Element | Value |
-|---------|-------|
-| Primary | `#FFB6D9` Soft Pink |
-| Secondary | `#FFFDD0` Cream |
-| Accent | `#D4A574` Light Brown |
-| Font | Quicksand + Pacifico (Google Fonts) |
-| Aesthetic | Kawaii / cute bakery |
+*   **Framework:** React 18
+*   **Build Tool:** Vite
+*   **Styling:** Pure Vanilla CSS (CSS Variables, Flexbox/Grid, Glassmorphism, CSS Animations)
+*   **Deployment:** Vercel
 
 ---
 
-## 🧱 Tech Stack
+## 🚀 Getting Started Locally
 
-- ⚛️ **React 18** — Component-based UI
-- ⚡ **Vite** — Fast dev server & build tool
-- 🎨 **Vanilla CSS** — Custom design system with CSS variables
-- 🖼️ **Inline SVG** — Kawaii mascot characters
-- 📱 **Fully responsive** — Mobile + desktop
+To run the TinyBaker PH landing page on your local machine:
 
----
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/mcmarasigan/TinybakerPH.git
+    cd TinybakerPH
+    ```
 
-## 📁 Project Structure
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-```
-TinybakerPH/
-├── public/
-│   ├── logo.png
-│   ├── dark-choco-cookie.png
-│   ├── red-velvet-cookie.png
-│   ├── matcha-cookie.png
-│   ├── midnight-oreo-cookie.png
-│   ├── brownies.png
-│   ├── butter-croissant.png
-│   ├── almond-croissant.png
-│   └── crookie.png
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx / .css
-│   │   ├── Hero.jsx / .css
-│   │   ├── About.jsx / .css
-│   │   ├── Gallery.jsx / .css
-│   │   ├── WhyChooseUs.jsx / .css
-│   │   ├── Contact.jsx / .css
-│   │   └── Footer.jsx / .css
-│   ├── App.jsx
-│   └── index.css
-└── index.html
-```
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **View the app**
+    Open `http://localhost:5173` in your browser.
 
 ---
 
-## 🚀 Getting Started
+## 📦 Deployment
 
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/TinybakerPH.git
-cd TinybakerPH
+This project is configured for seamless deployment on **Vercel**. 
+The repository includes a `vercel.json` routing configuration to ensure proper fallback routing for Single Page Applications (SPA). Pushing to the `main` branch automatically triggers a new production build.
 
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-```
+**Live Demo:** [https://tinybakerph.vercel.app](https://tinybakerph.vercel.app)
 
 ---
 
-## 📸 Sections
+## 💌 Connect with TinyBaker PH
 
-| Section | Description |
-|---------|-------------|
-| **Hero** | Floating kawaii SVG mascots, CTA buttons, stats |
-| **About** | Bakery story, animated baker illustration, mission & values |
-| **Gallery** | Products grouped by category, hover overlays, sticker badges |
-| **Why Choose Us** | Feature cards + customer testimonials |
-| **Contact** | Info cards, social links, contact form |
-| **Footer** | Links, menu, social icons, copyright |
+*   📍 Based in Project 8, Quezon City, Metro Manila
+*   📱 **Facebook:** [Tinybakerph](https://www.facebook.com/Tinybakerph)
+*   📸 **Instagram:** [@tinybaker_ph](https://www.instagram.com/tinybaker_ph)
+*   🎵 **TikTok:** [@tinybaker_ph](https://www.tiktok.com/@tinybaker_ph)
 
----
-
-## 📝 Notes
-
-- Place product images in `/public/` (white/transparent backgrounds work best)
-- Gallery uses `mix-blend-mode: multiply` for a sticker-like float effect
-- Scroll reveal uses native `IntersectionObserver` — zero extra libraries
-
----
-
-_Baked fresh. Delivered with love. ✨_
+> *"Baked with love, ready to satisfy your sweet cravings! ♡"*
