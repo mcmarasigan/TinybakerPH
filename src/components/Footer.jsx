@@ -35,15 +35,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       {/* Wave top */}
-      {/* Drip top */}
       <div className="footer-wave">
-        <svg width="100%" height="70px" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="drips" x="0" y="0" width="140" height="70" patternUnits="userSpaceOnUse">
-              <path transform="scale(1.4, 0.7)" fill="var(--pink-light)" d="M0,0 L100,0 L100,10 Q95,10 90,40 Q85,85 75,85 Q65,85 60,40 Q55,10 45,10 Q35,10 30,30 Q25,70 20,70 Q15,70 10,30 Q5,10 0,10 Z" />
-            </pattern>
-          </defs>
-          <rect x="0" y="0" width="100%" height="100%" fill="url(#drips)" />
+        <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+          <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,0 L0,0 Z" fill="var(--pink-light)" />
         </svg>
       </div>
 
