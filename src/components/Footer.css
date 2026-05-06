@@ -16,7 +16,6 @@
 .footer-wave svg {
   display: block;
   width: 100%;
-  transform: rotate(180deg);
 }
 
 /* Inner */
